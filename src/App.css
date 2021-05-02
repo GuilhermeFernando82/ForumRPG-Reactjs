@@ -6,13 +6,28 @@
   height: 40vmin;
   pointer-events: none;
 }
+#menu ul li {
+  display: inline;  
+  
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.text-lg-center{
+  position: absolute;
+  top: 300px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(243, 243, 243);
+  margin: 0;
+  padding: 0;
+}
+body{
+  color: greenyellow;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

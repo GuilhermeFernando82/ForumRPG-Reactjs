@@ -1,0 +1,17 @@
+@media screen and (max-width: 1200px){
+    .toggle{
+        display: block;
+    }
+}
+@media screen and (min-width: 600px){
+    .toggle{
+        display: none;
+    }
+}
+
+.hoverItem:hover{
+    background-color: #d1b368;
+}
+.itemText:hover{
+    color: black;
+}
