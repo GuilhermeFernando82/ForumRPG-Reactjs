@@ -16,7 +16,7 @@ export default class Forum extends Component{
     }
       this.load = this.load.bind(this)
       this.show = this.show.bind(this)
-      this.login = this.login.bind(this)
+    
   }
   componentDidMount(){
     this.load()
